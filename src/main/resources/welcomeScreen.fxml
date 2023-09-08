@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-border-radius: 15;">
+        <children>
+            <VBox alignment="BOTTOM_CENTER" layoutY="-1.0" prefHeight="447.0" prefWidth="322.0" style="-fx-background-color: #F4F0DB;">
+                <children>
+                    <VBox alignment="CENTER" prefHeight="313.0" prefWidth="322.0">
+                        <children>
+                            <Label alignment="CENTER" prefHeight="86.0" prefWidth="304.0" text="GREAT TO HAVE YOU!" textFill="#ae5f35">
+                                <font>
+                                    <Font name="System Bold" size="24.0" />
+                                </font>
+                            </Label>
+                            <HBox prefHeight="29.0" prefWidth="322.0">
+                                <children>
+                                    <Label alignment="CENTER" prefHeight="34.0" prefWidth="319.0" text="Create New Journal" textFill="#ae5f35" />
+                                </children>
+                            </HBox>
+                            <HBox alignment="CENTER" prefHeight="29.0" prefWidth="319.0">
+                                <children>
+                                    <TextField fx:id="weekNameInput" alignment="CENTER" prefHeight="26.0" prefWidth="208.0" promptText="Name of The Week" style="-fx-background-radius: 20;">
+                                        <HBox.margin>
+                                            <Insets bottom="4.0" />
+                                        </HBox.margin>
+                                    </TextField>
+                                </children>
+                            </HBox>
+                            <HBox alignment="CENTER" prefHeight="29.0" prefWidth="319.0">
+                                <children>
+                                    <TextField fx:id="newFileName" alignment="CENTER" prefHeight="29.0" prefWidth="208.0" promptText="File Path" style="-fx-background-radius: 20;">
+                                        <HBox.margin>
+                                            <Insets bottom="4.0" />
+                                        </HBox.margin>
+                                    </TextField>
+                                </children>
+                            </HBox>
+                            <ComboBox fx:id="templateDrop" prefHeight="26.0" prefWidth="207.0" promptText="Select Template (Optional)" style="-fx-background-radius: 20;" />
+                            <VBox alignment="CENTER" prefHeight="43.0" prefWidth="322.0">
+                                <children>
+                                    <Button fx:id="newFile" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" style="-fx-background-color: #ae5f35; -fx-background-radius: 20; -fx-cursor: hand;" text="New File" textFill="WHITE" />
+                                </children>
+                            </VBox>
+                        </children>
+                    </VBox>
+                    <VBox alignment="BOTTOM_CENTER" prefHeight="86.0" prefWidth="322.0">
+                        <children>
+                            <Label alignment="CENTER" prefHeight="108.0" prefWidth="120.0" text="Load Existing Journal" textFill="#ae5f35" />
+                            <HBox alignment="CENTER" prefHeight="36.0" prefWidth="322.0" spacing="10" style="-fx-background-color: #F4F0DB;">
+                                <children>
+                                    <Button fx:id="selectFile" mnemonicParsing="false" prefWidth="60.0" style="-fx-background-color: #F4F0DB; -fx-border-radius: 20; -fx-border-color: #ae5f35; -fx-cursor: hand;" text="Browse" textFill="#ae5f35" />
+                           <Button fx:id="loadFile" layoutX="141.0" layoutY="14.0" mnemonicParsing="false" prefWidth="60.0" style="-fx-background-color: #ae5f35; -fx-background-radius: 20; -fx-cursor: hand;" text="Load" textFill="WHITE" />
+                                </children>
+                                <VBox.margin>
+                                    <Insets bottom="5.0" />
+                                </VBox.margin>
+                            </HBox>
+                     <Label fx:id="pathLabel" alignment="CENTER" prefWidth="300.0" textFill="#ae5f35">
+                        <VBox.margin>
+                           <Insets bottom="5.0" top="-3.0" />
+                        </VBox.margin>
+                        <font>
+                           <Font name="System Bold" size="14.0" />
+                        </font>
+                     </Label>
+                        </children>
+                    </VBox>
+                </children>
+            </VBox>
+            <ImageView fx:id="catImage" fitHeight="446.0" fitWidth="501.0" layoutX="321.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@ImagesCat/welcomeScreen.jpg" />
+                </image>
+            </ImageView>
+        </children>
+    </AnchorPane>
+</Scene>

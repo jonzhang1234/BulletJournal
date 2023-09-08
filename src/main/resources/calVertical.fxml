@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <root>
+        <AnchorPane prefHeight="700.0" prefWidth="852.0" style="-fx-border-radius: 20;">
+            <children>
+                <ScrollPane prefHeight="715.0" prefWidth="871.0">
+                    <content>
+                        <VBox alignment="CENTER" prefHeight="800.0" prefWidth="854.0">
+                            <children>
+                                <HBox alignment="CENTER_LEFT" prefHeight="32.0" prefWidth="1440.0"
+                                      style="-fx-background-color: #ae5f35;">
+                                    <children>
+                                        <HBox prefHeight="32.0" prefWidth="1423.0"
+                                              style="-fx-background-color: #ae5f35;">
+                                            <children>
+                                                <HBox alignment="CENTER_LEFT" prefHeight="26.0" prefWidth="479.0"
+                                                      spacing="10" style="-fx-background-color: #ae5f35;">
+                                                    <children>
+                                                        <Button fx:id="home" mnemonicParsing="false" prefHeight="26.0"
+                                                                prefWidth="71.0"
+                                                                style="-fx-background-color: #ae5f35; -fx-cursor: hand;"
+                                                                text="Home" textFill="WHITE">
+                                                            <graphic>
+                                                                <ImageView fitHeight="13.0" fitWidth="17.0"
+                                                                           pickOnBounds="true" preserveRatio="true">
+                                                                    <image>
+                                                                        <Image url="@ImagesCat/home%20(1).png"/>
+                                                                    </image>
+                                                                </ImageView>
+                                                            </graphic>
+                                                        </Button>
+                                                        <Button fx:id="addTask" mnemonicParsing="false"
+                                                                prefHeight="26.0" prefWidth="71.0"
+                                                                style="-fx-background-color: #ae5f35; -fx-cursor: hand;"
+                                                                text="Task" textFill="WHITE">
+                                                            <graphic>
+                                                                <ImageView fitHeight="13.0" fitWidth="17.0"
+                                                                           pickOnBounds="true" preserveRatio="true">
+                                                                    <image>
+                                                                        <Image url="@ImagesCat/check-square%20(1).png"/>
+                                                                    </image>
+                                                                </ImageView>
+                                                            </graphic>
+                                                        </Button>
+                                                        <Button fx:id="addEvent" mnemonicParsing="false"
+                                                                prefHeight="26.0" prefWidth="71.0"
+                                                                style="-fx-background-color: #ae5f35; -fx-cursor: hand;"
+                                                                text="Event" textFill="WHITE">
+                                                            <graphic>
+                                                                <ImageView fitHeight="13.0" fitWidth="17.0"
+                                                                           pickOnBounds="true" preserveRatio="true">
+                                                                    <image>
+                                                                        <Image url="@ImagesCat/edit%20(1).png"/>
+                                                                    </image>
+                                                                </ImageView>
+                                                            </graphic>
+                                                        </Button>
+                                                        <Button fx:id="saveButton" mnemonicParsing="false"
+                                                                prefHeight="26.0" prefWidth="71.0"
+                                                                style="-fx-background-color: #ae5f35; -fx-cursor: hand;"
+                                                                text="Save" textFill="WHITE">
+                                                            <graphic>
+                                                                <ImageView fitHeight="13.0" fitWidth="17.0"
+                                                                           pickOnBounds="true" preserveRatio="true">
+                                                                    <image>
+                                                                        <Image url="@ImagesCat/save%20(1).png"/>
+                                                                    </image>
+                                                                </ImageView>
+                                                            </graphic>
+                                                        </Button>
+                                                        <Button fx:id="deleteSelected" mnemonicParsing="false"
+                                                                prefHeight="26.0" prefWidth="71.0"
+                                                                style="-fx-background-color: #ae5f35; -fx-cursor: hand;"
+                                                                text="Delete" textFill="WHITE">
+                                                            <graphic>
+                                                                <ImageView fitHeight="13.0" fitWidth="17.0"
+                                                                           pickOnBounds="true" preserveRatio="true">
+                                                                    <image>
+                                                                        <Image url="@ImagesCat/delete%20(1).png"/>
+                                                                    </image>
+                                                                </ImageView>
+                                                            </graphic>
+                                                        </Button>
+                                                        <Button fx:id="shortcut" mnemonicParsing="false"
+                                                                prefHeight="26.0" prefWidth="82.0"
+                                                                style="-fx-background-color: #ae5f35; -fx-cursor: hand;"
+                                                                text="Shortcut" textFill="WHITE">
+                                                            <graphic>
+                                                                <ImageView fitHeight="13.0" fitWidth="17.0"
+                                                                           pickOnBounds="true" preserveRatio="true">
+                                                                    <image>
+                                                                        <Image url="@ImagesCat/terminal.png"/>
+                                                                    </image>
+                                                                </ImageView>
+                                                            </graphic>
+                                                        </Button>
+                                                    </children>
+                                                </HBox>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                                <VBox alignment="CENTER_LEFT" prefHeight="877.0" prefWidth="1440.0"
+                                      style="-fx-background-color: #F4F0DB;">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="41.0" prefWidth="1440.0" spacing="10"
+                                              style="-fx-background-color: #F4F0DB;">
+                                            <children>
+                                                <HBox alignment="CENTER" prefHeight="62.0" prefWidth="899.0">
+                                                    <children>
+                                                        <HBox alignment="CENTER_LEFT" prefHeight="100.0"
+                                                              prefWidth="215.0">
+                                                            <children>
+                                                                <Label fx:id="weekName" prefHeight="50.0"
+                                                                       prefWidth="188.0" textFill="#ae5f35">
+                                                                    <font>
+                                                                        <Font name="System Bold" size="27.0"/>
+                                                                    </font>
+                                                                    <HBox.margin>
+                                                                        <Insets left="10.0"/>
+                                                                    </HBox.margin>
+                                                                </Label>
+                                                            </children>
+                                                        </HBox>
+                                                        <HBox alignment="CENTER_LEFT" prefHeight="33.0"
+                                                              prefWidth="638.0">
+                                                            <children>
+                                                                <HBox alignment="CENTER_LEFT" prefHeight="33.0"
+                                                                      prefWidth="319.0">
+                                                                    <children>
+                                                                        <Label fx:id="maxEvents" prefHeight="17.0"
+                                                                               prefWidth="120.0" text="Max Events: "
+                                                                               textFill="#ae5f35"/>
+                                                                        <TextField fx:id="maxEventInput"
+                                                                                   prefHeight="26.0" prefWidth="129.0"
+                                                                                   promptText="Max Events"
+                                                                                   style="-fx-background-radius: 20;"/>
+                                                                        <Label prefHeight="17.0" prefWidth="10.0"/>
+                                                                        <Button fx:id="submitMaxEvent"
+                                                                                mnemonicParsing="false"
+                                                                                prefHeight="26.0" prefWidth="75.0"
+                                                                                style="-fx-background-color: #ae5f35; -fx-background-radius: 20; -fx-cursor: hand;"
+                                                                                text="Set" textFill="WHITE"/>
+                                                                    </children>
+                                                                    <HBox.margin>
+                                                                        <Insets right="10.0"/>
+                                                                    </HBox.margin>
+                                                                </HBox>
+                                                                <HBox alignment="CENTER_RIGHT" prefHeight="33.0"
+                                                                      prefWidth="297.0">
+                                                                    <children>
+                                                                        <Label fx:id="maxTasks" prefHeight="17.0"
+                                                                               prefWidth="120.0" text="Max Tasks:"
+                                                                               textFill="#ae5f35"/>
+                                                                        <TextField fx:id="maxTaskInput"
+                                                                                   prefHeight="26.0" prefWidth="129.0"
+                                                                                   promptText="Max Tasks"
+                                                                                   style="-fx-background-radius: 20;"/>
+                                                                        <Label prefHeight="17.0" prefWidth="12.0"/>
+                                                                        <Button fx:id="submitMaxTask"
+                                                                                mnemonicParsing="false"
+                                                                                prefHeight="28.0" prefWidth="70.0"
+                                                                                style="-fx-background-color: #F4F0DB; -fx-border-color: #ae5f35; -fx-border-radius: 20; -fx-cursor: hand;"
+                                                                                text="Set" textFill="#ae5f35"/>
+                                                                    </children>
+                                                                </HBox>
+                                                            </children>
+                                                            <padding>
+                                                                <Insets right="10.0"/>
+                                                            </padding>
+                                                        </HBox>
+                                                    </children>
+                                                </HBox>
+                                            </children>
+                                        </HBox>
+                                        <HBox alignment="CENTER" prefHeight="835.0" prefWidth="1440.0">
+                                            <children>
+                                                <VBox alignment="CENTER" prefHeight="656.0" prefWidth="215.0">
+                                                    <children>
+                                                        <Label/>
+                                                        <VBox prefHeight="332.0" prefWidth="205.0">
+                                                            <children>
+                                                                <Text fx:id="totalEvents" fill="#ae5f35"
+                                                                      strokeType="OUTSIDE" strokeWidth="0.0"/>
+                                                                <Text fx:id="totalTasks" fill="#ae5f35"
+                                                                      strokeType="OUTSIDE" strokeWidth="0.0"/>
+                                                                <Text fx:id="percentageTasks" fill="#ae5f35"
+                                                                      strokeType="OUTSIDE" strokeWidth="0.0"/>
+                                                            </children>
+                                                            <VBox.margin>
+                                                                <Insets left="10.0"/>
+                                                            </VBox.margin>
+                                                        </VBox>
+                                                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="226.0"
+                                                               style="-fx-background-color: #F4E3DB;" text="Tasks"
+                                                               textFill="#ae5f35"/>
+                                                        <VBox prefHeight="847.0" prefWidth="205.0">
+                                                            <children>
+                                                                <ProgressBar fx:id="pbTask" prefHeight="28.0"
+                                                                             prefWidth="215.0" progress="0.0"
+                                                                             style="-fx-accent: #ae5f35;"/>
+                                                                <VBox prefHeight="606.0" prefWidth="215.0">
+                                                                    <children>
+                                                                        <ListView fx:id="taskQueue" prefHeight="612.0"
+                                                                                  prefWidth="215.0"/>
+                                                                    </children>
+                                                                </VBox>
+                                                            </children>
+                                                        </VBox>
+                                                    </children>
+                                                </VBox>
+                                                <VBox fx:id="allTheDays" alignment="CENTER" prefHeight="835.0"
+                                                      prefWidth="640.0">
+                                                    <children>
+                                                        <VBox alignment="CENTER" prefHeight="500.0" prefWidth="887.0">
+                                                            <children>
+                                                                <HBox alignment="CENTER_LEFT" prefHeight="27.0"
+                                                                      prefWidth="1243.0">
+                                                                    <children>
+                                                                        <Label alignment="CENTER"
+                                                                               contentDisplay="CENTER" prefHeight="21.0"
+                                                                               prefWidth="120.0"
+                                                                               style="-fx-background-color: #F4E3DB;"
+                                                                               text="Sunday" textFill="#ae5f35"/>
+                                                                        <ProgressBar fx:id="pb0" prefHeight="21.0"
+                                                                                     prefWidth="530.0" progress="0.0"
+                                                                                     style="-fx-accent: #ae5f35;"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox prefHeight="94.0" prefWidth="698.0">
+                                                                    <children>
+                                                                        <ListView fx:id="list0" prefHeight="93.0"
+                                                                                  prefWidth="642.0"/>
+                                                                    </children>
+                                                                </HBox>
+                                                            </children>
+                                                        </VBox>
+                                                        <VBox alignment="CENTER" prefHeight="500.0" prefWidth="414.0">
+                                                            <children>
+                                                                <HBox alignment="CENTER_LEFT" prefHeight="27.0"
+                                                                      prefWidth="1243.0">
+                                                                    <children>
+                                                                        <Label alignment="CENTER"
+                                                                               contentDisplay="CENTER" prefHeight="21.0"
+                                                                               prefWidth="120.0"
+                                                                               style="-fx-background-color: #F4E3DB;"
+                                                                               text="Monday" textFill="#ae5f35"/>
+                                                                        <ProgressBar fx:id="pb1" prefHeight="21.0"
+                                                                                     prefWidth="530.0" progress="0.0"
+                                                                                     style="-fx-accent: #ae5f35;"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox prefHeight="100.0" prefWidth="1304.0">
+                                                                    <children>
+                                                                        <ListView fx:id="list1" prefHeight="96.0"
+                                                                                  prefWidth="696.0"/>
+                                                                    </children>
+                                                                </HBox>
+                                                            </children>
+                                                        </VBox>
+                                                        <VBox alignment="CENTER" prefHeight="500.0" prefWidth="414.0">
+                                                            <children>
+                                                                <HBox alignment="CENTER_LEFT" prefHeight="27.0"
+                                                                      prefWidth="1243.0">
+                                                                    <children>
+                                                                        <Label alignment="CENTER"
+                                                                               contentDisplay="CENTER" prefHeight="21.0"
+                                                                               prefWidth="120.0"
+                                                                               style="-fx-background-color: #F4E3DB;"
+                                                                               text="Tuesday" textFill="#ae5f35"/>
+                                                                        <ProgressBar fx:id="pb2" prefHeight="21.0"
+                                                                                     prefWidth="530.0" progress="0.0"
+                                                                                     style="-fx-accent: #ae5f35;"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox prefHeight="100.0" prefWidth="200.0">
+                                                                    <children>
+                                                                        <ListView fx:id="list2" prefHeight="97.0"
+                                                                                  prefWidth="669.0"/>
+                                                                    </children>
+                                                                </HBox>
+                                                            </children>
+                                                        </VBox>
+                                                        <VBox alignment="CENTER" prefHeight="500.0" prefWidth="414.0">
+                                                            <children>
+                                                                <HBox alignment="CENTER_LEFT" prefHeight="27.0"
+                                                                      prefWidth="1243.0">
+                                                                    <children>
+                                                                        <Label alignment="CENTER"
+                                                                               contentDisplay="CENTER" prefHeight="21.0"
+                                                                               prefWidth="120.0"
+                                                                               style="-fx-background-color: #F4E3DB;"
+                                                                               text="Wednesday" textFill="#ae5f35"/>
+                                                                        <ProgressBar fx:id="pb3" prefHeight="21.0"
+                                                                                     prefWidth="530.0" progress="0.0"
+                                                                                     style="-fx-accent: #ae5f35;"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox prefHeight="100.0" prefWidth="200.0">
+                                                                    <children>
+                                                                        <ListView fx:id="list3" prefHeight="97.0"
+                                                                                  prefWidth="654.0"/>
+                                                                    </children>
+                                                                </HBox>
+                                                            </children>
+                                                        </VBox>
+                                                        <VBox alignment="CENTER" prefHeight="500.0" prefWidth="414.0">
+                                                            <children>
+                                                                <HBox alignment="CENTER_LEFT" prefHeight="27.0"
+                                                                      prefWidth="1243.0">
+                                                                    <children>
+                                                                        <Label alignment="CENTER"
+                                                                               contentDisplay="CENTER" prefHeight="21.0"
+                                                                               prefWidth="120.0"
+                                                                               style="-fx-background-color: #F4E3DB;"
+                                                                               text="Thursday" textFill="#ae5f35"/>
+                                                                        <ProgressBar fx:id="pb4" prefHeight="21.0"
+                                                                                     prefWidth="530.0" progress="0.0"
+                                                                                     style="-fx-accent: #ae5f35;"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox prefHeight="100.0" prefWidth="200.0">
+                                                                    <children>
+                                                                        <ListView fx:id="list4" prefHeight="97.0"
+                                                                                  prefWidth="671.0"/>
+                                                                    </children>
+                                                                </HBox>
+                                                            </children>
+                                                        </VBox>
+                                                        <VBox alignment="CENTER" prefHeight="500.0" prefWidth="414.0">
+                                                            <children>
+                                                                <HBox alignment="CENTER_LEFT" prefHeight="27.0"
+                                                                      prefWidth="1243.0">
+                                                                    <children>
+                                                                        <Label alignment="CENTER"
+                                                                               contentDisplay="CENTER" prefHeight="21.0"
+                                                                               prefWidth="120.0"
+                                                                               style="-fx-background-color: #F4E3DB;"
+                                                                               text="Friday" textFill="#ae5f35"/>
+                                                                        <ProgressBar fx:id="pb5" prefHeight="21.0"
+                                                                                     prefWidth="530.0" progress="0.0"
+                                                                                     style="-fx-accent: #ae5f35;"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox prefHeight="100.0" prefWidth="200.0">
+                                                                    <children>
+                                                                        <ListView fx:id="list5" prefHeight="51.0"
+                                                                                  prefWidth="707.0"/>
+                                                                    </children>
+                                                                </HBox>
+                                                            </children>
+                                                        </VBox>
+                                                        <VBox alignment="CENTER" prefHeight="500.0" prefWidth="414.0">
+                                                            <children>
+                                                                <HBox alignment="CENTER_LEFT" prefHeight="27.0"
+                                                                      prefWidth="1243.0">
+                                                                    <children>
+                                                                        <Label alignment="CENTER"
+                                                                               contentDisplay="CENTER" prefHeight="21.0"
+                                                                               prefWidth="120.0"
+                                                                               style="-fx-background-color: #F4E3DB;"
+                                                                               text="Saturday" textFill="#ae5f35"/>
+                                                                        <ProgressBar fx:id="pb6" prefHeight="21.0"
+                                                                                     prefWidth="530.0" progress="0.0"
+                                                                                     style="-fx-accent: #ae5f35;"/>
+                                                                    </children>
+                                                                </HBox>
+                                                                <HBox prefHeight="100.0" prefWidth="200.0">
+                                                                    <children>
+                                                                        <ListView fx:id="list6" prefHeight="97.0"
+                                                                                  prefWidth="690.0"/>
+                                                                    </children>
+                                                                </HBox>
+                                                            </children>
+                                                        </VBox>
+                                                        <HBox prefHeight="100.0" prefWidth="200.0"/>
+                                                    </children>
+                                                </VBox>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </VBox>
+                            </children>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+            </children>
+        </AnchorPane>
+    </root>
+</Scene>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <root>
+      <AnchorPane prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: #F4F0DB; -fx-border-radius: 15;">
+         <children>
+            <VBox layoutY="1.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="1.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="69.0" prefWidth="527.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="KEYBOARD SHORTCUTS" textFill="#ae5f35">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER" spacing="10">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="9.0" prefWidth="87.0">
+                           <children>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/command%20(2).png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="44.0" prefWidth="29.0" text=" / Ctrl" textFill="#ae5f35">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/plus.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="44.0" prefWidth="29.0" text="E" textFill="#ae5f35">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label prefHeight="52.0" prefWidth="132.0" text="Create New Event" textFill="#ae5f35">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" spacing="10">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="9.0" prefWidth="87.0">
+                           <children>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/command%20(2).png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="44.0" prefWidth="29.0" text=" / Ctrl" textFill="#ae5f35">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/plus.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="44.0" prefWidth="29.0" text="T" textFill="#ae5f35">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label prefHeight="52.0" prefWidth="132.0" text="Create New Task " textFill="#ae5f35">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" spacing="10">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="9.0" prefWidth="87.0">
+                           <children>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/command%20(2).png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="44.0" prefWidth="29.0" text=" / Ctrl" textFill="#ae5f35">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/plus.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="44.0" prefWidth="29.0" text="S" textFill="#ae5f35">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label prefHeight="52.0" prefWidth="132.0" text="Save" textFill="#ae5f35">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" spacing="10">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="9.0" prefWidth="87.0">
+                           <children>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/command%20(2).png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="44.0" prefWidth="29.0" text=" / Ctrl" textFill="#ae5f35">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/plus.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="44.0" prefWidth="29.0" text="O" textFill="#ae5f35">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label prefHeight="52.0" prefWidth="132.0" text="Open" textFill="#ae5f35">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" spacing="10">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="9.0" prefWidth="87.0">
+                           <children>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/command%20(2).png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="44.0" prefWidth="29.0" text=" / Ctrl" textFill="#ae5f35">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/plus.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="44.0" prefWidth="29.0" text="N" textFill="#ae5f35">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label prefHeight="52.0" prefWidth="132.0" text="New Week" textFill="#ae5f35">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" spacing="10">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="84.0">
+                           <children>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/command%20(2).png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="44.0" prefWidth="29.0" text=" / Ctrl" textFill="#ae5f35">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/plus.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/delete.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <Label prefHeight="52.0" prefWidth="132.0" text="Delete Selected Task " textFill="#ae5f35">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" spacing="10">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="9.0" prefWidth="87.0">
+                           <children>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/command%20(2).png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="44.0" prefWidth="29.0" text=" / Ctrl" textFill="#ae5f35">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="13.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@ImagesCat/plus.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="44.0" prefWidth="29.0" text="L" textFill="#ae5f35">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label prefHeight="52.0" prefWidth="132.0" text="Change Layout" textFill="#ae5f35">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="54.0" prefWidth="500.0" spacing="10">
+                     <children>
+                        <Button fx:id="closeButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="59.0" style="-fx-background-color: #ae5f35; -fx-background-radius: 20; -fx-cursor: hand;" text="Close" textFill="WHITE" />
+                     </children>
+                  </HBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="169.0" fitWidth="327.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@ImagesCat/IMG_2910.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </root>
+</Scene>
